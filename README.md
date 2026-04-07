@@ -9,6 +9,8 @@ A building management dashboard for monitoring and controlling lighting, HVAC, o
 
 ## Getting Started
 
+The app lives inside the `spaceos/` folder. Navigate into it first, then install dependencies and start the dev server:
+
 ```bash
 cd spaceos
 npm install
@@ -19,8 +21,12 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Other Commands
 
+All commands below must be run from inside the `spaceos/` directory.
+
 ```bash
-npm run build    # production build → dist/
+cd spaceos
+
+npm run build    # production build → spaceos/dist/
 npm run preview  # preview the production build locally
 npm run lint     # run ESLint
 ```
